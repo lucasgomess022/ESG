@@ -1,0 +1,15 @@
+{
+  "name": "rest-express",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",          // compila os arquivos TypeScript para JavaScript (a pasta de saída definida no tsconfig.json, geralmente "dist")
+    "start": "NODE_ENV=production node dist/index.js"
+  },
+  "dependencies": {
+    // suas dependências...
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"    // ou a versão que você estiver usando
+  }
+}
