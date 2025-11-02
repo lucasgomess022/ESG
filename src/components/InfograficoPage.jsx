@@ -5,7 +5,7 @@ import { ChevronRight, Download, Copy, Database, FileOutput, Bot, Search, Messag
 
 import { Button } from "@/components/ui/button";
 
-// --- Componente de Card com Animação ---
+// --- Componente de Card com Animação --- // Forçando novo build na Vercel
 const AnimatedCard = ({ children, className }) => {
     const { ref, inView } = useInView({ once: true, threshold: 0.3 });
 
