@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ChevronRight, Download, Copy, Database, FileOutput, Bot, Search, MessageSquare, Target, BookOpen, Zap, Award, ListChecks, BrainCircuit, Sparkles, FileText, CheckCircle, Lightbulb } from 'lucide-react';
+import { ChevronRight, Download, Copy, Database, FileOutput, Bot, Search, MessageSquare, Target, BookOpen, Zap, Award, ListChecks, BrainCircuit, Sparkles, FileText, CheckCircle } from 'lucide-react';
 
 import { Button } from "@/components/ui/button";
 
@@ -64,7 +64,7 @@ export default function InfograficoPage() {
         { title: "3. Suba na IA com prompt claro", description: "Utilização de plataformas de IA (Manus, ChatGPT, etc.) para análise dos dados, com prompts bem elaborados.", icon: Bot, detalhes: "Instruções claras geram melhores resultados." },
         { title: "4. Receba a planilha otimizada", description: "A IA retorna uma planilha com fórmulas aplicadas, gráficos gerados e um resumo executivo, otimizando o tempo de trabalho.", icon: Search, detalhes: "Economia de tempo e aprendizado." },
         { title: "5. Interpretação e análise", description: "Professor e alunos analisam e interpretam os resultados da IA, discutindo os insights e aprofundando o conhecimento.", icon: MessageSquare, detalhes: "Foco na análise crítica." },
-        { title: "6. Dica bônus", description: "O desenvolvimento de um bom prompt de comando é essencial para analisar o máximo de desempenho da IA. Quer conferir um exemplo? Acesse o nosso material de apoio pelo QR Code.", icon: Lightbulb, detalhes: "Aprenda a criar prompts eficazes." },
+        { title: "6. Dica bônus", description: "O desenvolvimento de um bom prompt de comando é essencial para analisar o máximo de desempenho da IA. Quer conferir um exemplo? Acesse o nosso material de apoio pelo QR Code.", icon: Sparkles, detalhes: "Aprenda a criar prompts eficazes." },
     ];
 
     const competencias = [
