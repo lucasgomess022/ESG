@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ChevronRight, Download, Copy, Database, FileOutput, Bot, Search, MessageSquare, Target, BookOpen, Zap, Award, ListChecks, BrainCircuit, Sparkles, FileText, CheckCircle } from 'lucide-react';
+import { ChevronRight, Download, Copy, Database, FileOutput, Bot, Search, MessageSquare, Target, BookOpen, Zap, Award, ListChecks, BrainCircuit, Sparkles, FileText, CheckCircle, Lightbulb } from 'lucide-react';
 
 import { Button } from "@/components/ui/button";
 
