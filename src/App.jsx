@@ -1,9 +1,9 @@
-import React from 'react'
-import InfograficoPage from './components/InfograficoPage'
-import './App.css'
+import React from 'react';
+import InfograficoPageSimple from './components/InfograficoPageSimple';
+import './App.css';
 
 function App() {
-  return <InfograficoPage />
+  return <InfograficoPageSimple />;
 }
 
-export default App
+export default App;
