@@ -11,3 +11,8 @@
   for = "/assets/*.mjs"
   [headers.values]
     Content-Type = "text/javascript"
+
+[[headers]]
+  for = "/assets/*.css"
+  [headers.values]
+    Content-Type = "text/css"
